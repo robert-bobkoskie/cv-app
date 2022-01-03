@@ -5,8 +5,9 @@ function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<img src={gtech} alt="gtech" />
+				<img src={gtech} className="gtech" alt="gtech" />
 			</header>
+			<h1>Phase 1</h1>
 		</div>
 	);
 }
