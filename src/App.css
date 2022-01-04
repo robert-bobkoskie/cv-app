@@ -2,12 +2,6 @@
 	text-align: center;
 }
 
-.gtech {
-  height: 10vmin;
-  width: auto;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
 	.App-logo {
 		animation: App-logo-spin infinite 20s linear;
@@ -17,8 +11,8 @@
 .App-header {
 	background-color: white;
 	min-height: 10px;
-	display: flex;
-	flex-direction: column;
+	display: inline-block;
+	flex-direction: row;
 	align-items: center;
 	font-size: calc(10px + 2vmin);
 	color: white;
@@ -26,6 +20,41 @@
 
 .App-link {
 	color: #61dafb;
+}
+
+.text_1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	text-align:justify;
+}
+
+.text_2 {
+	font-size: 12px;
+}
+
+.img_1 {
+	height: 70vmin;
+	width: auto;
+	pointer-events: none;
+}
+
+.img_2 {
+	height: 23vmin;
+	width: auto;
+	pointer-events: none;
+}
+
+.gtech {
+	height: 10vmin;
+	width: auto;
+	pointer-events: none;
+}
+
+.App-logo {
+	height: 10vmin;
+	width: auto;
+	pointer-events: none;
 }
 
 @keyframes App-logo-spin {
