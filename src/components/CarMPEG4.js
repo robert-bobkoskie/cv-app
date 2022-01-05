@@ -5,7 +5,7 @@ class CarMPEG4 extends Component {
 	render() {
 		return (
 			<div className="CarMPEG4">
-				<video width="auto" height="400px" controls >
+				<video width="auto" height="450px" controls >
 					<source src={P1_CarMP4} type="video/mp4"/>
 				</video>
 			</div>
