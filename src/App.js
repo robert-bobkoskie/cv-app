@@ -1,4 +1,4 @@
-import React, { useRef} from 'react'
+import React, { useRef} from 'react';
 
 import gtech from './images/gtech.png';
 import logo from './images/logo.svg';
@@ -14,6 +14,19 @@ import P1_CarStreetSceneGif from './images/PHASE_1/car_street_scene.gif';
 import P1_Simpsons_60fpsGif from './images/PHASE_1/Simpsons_60fps.gif';
 
 import P2_CarFinalDevGif from './images/PHASE_2/FINAL_CAR_DISAPPEAR.gif';
+import P2_FINAL_CAR_BAD_BLENDGif from './images/PHASE_2/FINAL_CAR_BAD_BLEND.gif';
+
+import P2_STREETwithDOORGif from './images/PHASE_2/STREET_with_DOOR.gif';
+import P2_CAR_DISAPPEARGif from './images/PHASE_2/CAR_DISAPPEAR.gif';
+import P2_LIGHTENING_FULL_SIZEGif from './images/PHASE_2/LIGHTENING_FULL_SIZE.gif';
+import P2_DOOR_Gif from './images/PHASE_2/DOOR.gif';
+import P2_DOOR_MARKEDGif from './images/PHASE_2/DOOR_MARKED.gif';
+import P2_LIGHTENING_PLUS_DOORGif from './images/PHASE_2/LIGHTENING_PLUS_DOOR.gif';
+import P2_CAR_STREET_X_TESTGif from './images/PHASE_2/CAR_STREET_X_TEST.gif';
+import P2_CAR_LIGHTENING_X_TESTGif from './images/PHASE_2/CAR_LIGHTENING_X_TEST.gif';
+
+import P2_CAR_BAD_BLEND_LIGHTENINGGif from './images/PHASE_2/CAR_BAD_BLEND_LIGHTENING.gif';
+import FINAL_CAR_GOOD_BLEND from './images/PHASE_2/FINAL_CAR_GOOD_BLEND.gif';
 
 
 function MyComponent(props) {
@@ -45,7 +58,7 @@ function App() {
 			<br /><br />
 				
 			<h1>"What’s the point of going out? We’re just gonna wind up back here anyway."<sub className="text_2">Homer Simpson</sub></h1>
-			<img src={P2_CarFinalDevGif} className="img_Full" alt="Phase 3: Final Deliverable" />
+			<img src={P2_CarFinalDevGif} className="img_Full" alt="Phase 2: Final Deliverable" />
 			
 			<div>
 				<p className="text_1">
@@ -75,9 +88,9 @@ function App() {
 					For Phase 1, I wanted to keep the scope succinct, to make certain that  I could deliver something.
 					For this phase, the goal was to replace a boring office scene that I used to create a video texture
 					for assignment 11 with something more scenic. I started with the idea to mask out the office scene
-					by detecting the moving car and using that as the 'white' image (correlates with the 'white' portion
-					of the mask). My first video used a street scene as the 'black' image, and the generated mask(s) and
-					'white' image(s) to create the novel video. To create the final gif, I used GIMP to resize and relocate
+					by detecting the moving car and using that as the "white" image (correlates with the "white" portion
+					of the mask). My first video used a street scene as the "dark" image, and the generated mask(s) and
+					"white" image(s) to create the novel video. To create the final gif, I used GIMP to resize and relocate
 					the Cartoon gif. I blended the images using the same code.
 					<br /><br />
 					
@@ -95,9 +108,12 @@ function App() {
 					<br /><br />
 					
 					<div className="row">
-						<img style = {{ paddingRight:10 }} src={P1_CarStreetSceneGif} className="img_2" alt="Phase 1: Car Identified" />
-						<div style = {{ width:200, paddingRight:10 }} >Left: Gif of moving car blended with street scene. Right: Cartoon gif.</div>
-						<img src={P1_Simpsons_60fpsGif} className="img_2" alt="Phase 1: Car Identified" />
+						<img style = {{ paddingRight:10 }} src={P1_CarStreetSceneGif} className="img_4" alt="Phase 1: Car Identified" />
+						<div style = {{ width:200, paddingRight:10 }} >
+							Left: Gif of moving car blended with street scene. Right: Cartoon gif.
+							These gif's were blended together to create the deliverable for Phase 1.
+						</div>
+						<img src={P1_Simpsons_60fpsGif} className="img_4" alt="Phase 1: Car Identified" />
 					</div>
 					<br /><br />
 				</p>
@@ -105,13 +121,50 @@ function App() {
 				
 				<h1>Phase 2</h1>
 				<p className="text_1">
-					For Phase 2, I wanted to expand on the work done in Phase 1. My goal was to code the manual parts of Phase 1. Since I
+					For Phase 2, I wanted to expand on the work accomplished in Phase 1. My goal was to code the manual parts of Phase 1. Since I
 					was saving time by automating the manual processes, I also wanted to create a more complex video for Phase 2.
-					<br /><br />
 					To create the final gifs, I used a code based approach to auto-size, auto-detect images in frames; generating masks
-					and 'white' images for blending. The output (a gif like the doorway + lightening) became the input for creating a
+					and "white" images for blending. The output (a gif like the doorway + lightening) became the input for creating a
 					novel gif. This approach was used recursively four times to create the final gif of the disappearing car.
 					<br /><br />
+					
+					<img style = {{ paddingRight:10 }} src={P2_STREETwithDOORGif} className="img_2" alt="Phase 2: Street scene with door" />
+					<img style = {{ paddingRight:10 }} src={P2_CAR_DISAPPEARGif} className="img_2" alt="Phase 2: Car Disappear" />
+					<img src={P2_CarFinalDevGif} className="img_Full" className="img_2" alt="Phase 2: Final Deliverable" />
+					<br /><br />
+					Above from Left: Doorway + lightening blended with street scene, Car with good blending into street scene, Disappearing car.
+					After some experimentation, these gifs would eventually comprise the final gif (above right and top of page).
+					<br /><br />
+					
+					<img style = {{ paddingRight:10 }} src={P2_LIGHTENING_FULL_SIZEGif} className="img_3" alt="Phase 2: Street scene with door" />
+					<img style = {{ paddingRight:10 }} src={P2_DOOR_Gif} className="img_3" alt="Phase 2: Door" />
+					<img style = {{ paddingRight:10 }} src={P2_DOOR_MARKEDGif} className="img_3" alt="Phase 2: Door with mask" />
+					<img style = {{ paddingRight:10 }} src={P2_LIGHTENING_PLUS_DOORGif} className="img_3" alt="Phase 2: Door with lightening" />
+					<br /><br />
+					Above from Left: Lightening gif, Doorway gif, Open doorway detected, Open doorway blended with lightening.
+					<br /><br />
+					
+					<img style = {{ paddingRight:10 }} src={P2_CAR_STREET_X_TESTGif} className="img_4" alt="Phase 2: Car with street X test" />
+					<img style = {{ paddingRight:10 }} src={P2_CAR_LIGHTENING_X_TESTGif} className="img_4" alt="Phase 2: Car with lightening X test" />
+					<br /><br />
+					Above, the “X” experiments demonstrate image masking and blending. The gif on the left was marked with “X”s about both the
+					car and buildings. You’ll need to observe the gifs closely, as the “x”s appear as a “flicker” in the gifs. The car in this
+					image is associated with the “white” area of the mask (from Phase 1 development), everything else, including the buildings
+					with the “dark” area. Thus, the buildings would get masked out of the output gif and replaced with the street scene from the
+					gif with the doorway and lightening. The gif on the right is the output, a blend of gif on the left with the gif of the street
+					scene + doorway + lightening (above left). As expected only the 'X's near the car appear in the final output.
+					<br /><br />
+					
+					<img style = {{ paddingRight:10 }} src={P2_CAR_BAD_BLEND_LIGHTENINGGif} className="img_4" alt="Phase 2: Car with bad blending" />
+					<img style = {{ paddingRight:10 }} src={FINAL_CAR_GOOD_BLEND} className="img_4" alt="Phase 2: Car with good blending" />
+					<br /><br />
+					Above, Blending experiments: The gif on the left is blended with a "white" mask area that is the same shape as the car.
+					The gif on the right is blended with a slightly smaller area, by seven pixels on both axis [h, w] for the "white" mask. This small
+					reduction in the shape of the mask appears to have improved the blending at the edges of the car, while not
+					masking out too much of the car. Notice that some of the front tire in the blended image is masked out with the smaller mask.
+					Using a "white" mask that was much smaller (~15 pixels, [h, w]) would mask out too much of the car and, thus was not a consideration.
+					<br /><br />
+					
 				</p>
 			</div>
 		</div>

@@ -50,9 +50,22 @@
 }
 
 .img_2 {
-	height: 22.5vmin;
+	height: 22vmin;
 	width: auto;
-	pointer-events: none;
+}
+
+.img_3 {
+	height: 27vmin;
+	width: auto;
+}
+
+.img_4 {
+	height: 33vmin;
+	width: auto;
+}
+
+.img_2:hover, .img_3:hover, .img_4:hover {
+	transform: scale(1.5);
 }
 
 .img_Full {
@@ -80,3 +93,4 @@
 		transform: rotate(360deg);
 	}
 }
+
