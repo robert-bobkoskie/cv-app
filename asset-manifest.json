@@ -1,24 +1,35 @@
 {
   "files": {
-    "main.css": "/cv-app/static/css/main.85bb4171.css",
-    "main.js": "/cv-app/static/js/main.f554f537.js",
+    "main.css": "/cv-app/static/css/main.942bfb63.css",
+    "main.js": "/cv-app/static/js/main.f4e718d6.js",
     "static/js/787.17e1d652.chunk.js": "/cv-app/static/js/787.17e1d652.chunk.js",
     "static/media/car_detected.gif": "/cv-app/static/media/car_detected.17bd69da537267634c2b.gif",
+    "static/media/STREET_with_DOOR.gif": "/cv-app/static/media/STREET_with_DOOR.911a8c183aad529dca5d.gif",
+    "static/media/LIGHTENING_FULL_SIZE.gif": "/cv-app/static/media/LIGHTENING_FULL_SIZE.104e50814247840bc3b9.gif",
+    "static/media/CAR_DISAPPEAR.gif": "/cv-app/static/media/CAR_DISAPPEAR.5015d0ade566ab1f56b2.gif",
     "static/media/FINAL_CAR_DISAPPEAR.gif": "/cv-app/static/media/FINAL_CAR_DISAPPEAR.71a74b71cd7066d60ec3.gif",
+    "static/media/FINAL_CAR_BAD_BLEND.gif": "/cv-app/static/media/FINAL_CAR_BAD_BLEND.b9fce884cd853552a046.gif",
     "static/media/car_street_scene.gif": "/cv-app/static/media/car_street_scene.3998f598bcbcf5122466.gif",
+    "static/media/CAR_STREET_X_TEST.gif": "/cv-app/static/media/CAR_STREET_X_TEST.e8737fbf8f8283ab6709.gif",
+    "static/media/FINAL_CAR_GOOD_BLEND.gif": "/cv-app/static/media/FINAL_CAR_GOOD_BLEND.af546ea89c2f2f35c51c.gif",
+    "static/media/CAR_LIGHTENING_X_TEST.gif": "/cv-app/static/media/CAR_LIGHTENING_X_TEST.bf3d2ea2aa78a736a378.gif",
+    "static/media/CAR_BAD_BLEND_LIGHTENING.gif": "/cv-app/static/media/CAR_BAD_BLEND_LIGHTENING.8a8544cf21f528d3382b.gif",
     "static/media/car_simpsons.gif": "/cv-app/static/media/car_simpsons.89f49fc5630a28d820c9.gif",
     "static/media/car.gif": "/cv-app/static/media/car.ba4bd6b14947529f9e97.gif",
     "static/media/Simpsons_60fps.gif": "/cv-app/static/media/Simpsons_60fps.f690051754c568bd2b46.gif",
     "static/media/20160629_100145.mp4": "/cv-app/static/media/20160629_100145.68395084482db4ab0891.mp4",
+    "static/media/DOOR_MARKED.gif": "/cv-app/static/media/DOOR_MARKED.b23c39c0115195bd84a1.gif",
+    "static/media/LIGHTENING_PLUS_DOOR.gif": "/cv-app/static/media/LIGHTENING_PLUS_DOOR.757badfba6cab8cf17f3.gif",
+    "static/media/DOOR.gif": "/cv-app/static/media/DOOR.dc1b42ac4eedd7494ea3.gif",
     "static/media/car_mask.gif": "/cv-app/static/media/car_mask.bbd8c4ee6f8928a76608.gif",
     "static/media/logo.svg": "/cv-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cv-app/index.html",
-    "main.85bb4171.css.map": "/cv-app/static/css/main.85bb4171.css.map",
-    "main.f554f537.js.map": "/cv-app/static/js/main.f554f537.js.map",
+    "main.942bfb63.css.map": "/cv-app/static/css/main.942bfb63.css.map",
+    "main.f4e718d6.js.map": "/cv-app/static/js/main.f4e718d6.js.map",
     "787.17e1d652.chunk.js.map": "/cv-app/static/js/787.17e1d652.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85bb4171.css",
-    "static/js/main.f554f537.js"
+    "static/css/main.942bfb63.css",
+    "static/js/main.f4e718d6.js"
   ]
 }
