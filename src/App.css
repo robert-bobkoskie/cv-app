@@ -32,15 +32,20 @@
 	padding-right: 15px;
 	text-align:justify;
 }
+
 .text_1 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 800px;
-	text-align:justify;
+	text-align: justify;
 }
 
 .text_2 {
 	font-size: 12px;
+}
+
+.centered_img {
+	margin: 0 auto;
 }
 
 .img_1 {
@@ -50,17 +55,17 @@
 }
 
 .img_2 {
-	height: 22vmin;
+	height: 20vmin;
 	width: auto;
 }
 
 .img_3 {
-	height: 27vmin;
+	height: 25vmin;
 	width: auto;
 }
 
 .img_4 {
-	height: 33vmin;
+	height: 31vmin;
 	width: auto;
 }
 
