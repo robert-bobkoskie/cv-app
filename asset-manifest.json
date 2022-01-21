@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cv-app/static/css/main.942bfb63.css",
-    "main.js": "/cv-app/static/js/main.f4e718d6.js",
+    "main.css": "/cv-app/static/css/main.bfb7e0d0.css",
+    "main.js": "/cv-app/static/js/main.0a80ea55.js",
     "static/js/787.17e1d652.chunk.js": "/cv-app/static/js/787.17e1d652.chunk.js",
     "static/media/car_detected.gif": "/cv-app/static/media/car_detected.17bd69da537267634c2b.gif",
     "static/media/STREET_with_DOOR.gif": "/cv-app/static/media/STREET_with_DOOR.911a8c183aad529dca5d.gif",
@@ -24,12 +24,12 @@
     "static/media/car_mask.gif": "/cv-app/static/media/car_mask.bbd8c4ee6f8928a76608.gif",
     "static/media/logo.svg": "/cv-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/cv-app/index.html",
-    "main.942bfb63.css.map": "/cv-app/static/css/main.942bfb63.css.map",
-    "main.f4e718d6.js.map": "/cv-app/static/js/main.f4e718d6.js.map",
+    "main.bfb7e0d0.css.map": "/cv-app/static/css/main.bfb7e0d0.css.map",
+    "main.0a80ea55.js.map": "/cv-app/static/js/main.0a80ea55.js.map",
     "787.17e1d652.chunk.js.map": "/cv-app/static/js/787.17e1d652.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.942bfb63.css",
-    "static/js/main.f4e718d6.js"
+    "static/css/main.bfb7e0d0.css",
+    "static/js/main.0a80ea55.js"
   ]
 }
